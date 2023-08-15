@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+        <script src="https://kit.fontawesome.com/ccd716251a.js" crossorigin="anonymous"></script>
+          <link rel="stylesheet" href="../css/styles.css"><!--used to link my css to this html page--> 
+        <title>MaryGold Designs</title>
+       
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            body {
+                margin: 0;
+            }
+    .flower{
+        margin-left: -150px;
+        margin-top: -50px;
+    }
+
+    .bike{
+        margin-top: -50px;
+    }
+            #ccontainer1, 
+            #ccontainer2,  
+            #ccontainer3,
+            #ccontainer4 {
+                width: 1200px; /* Your previous container width */
+                margin: 0 auto;
+              
+                padding:80px;
+                padding-bottom: 180px;
+                padding-top: 100px;
+                margin-bottom: -40px;
+                margin-top: -20px;
+                
+            }
+            #ccontainer1
+            {
+                background-color: white;
+            } 
+            #ccontainer2{
+                background-color: #f2f2f2;
+            }  
+
+
+            #ccontainer3{
+                background-color: white;
+            } 
+
+            #ccontainer4{
+                background-color: #f2f2f2;
+            } 
+
+            .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .column-66 {
+        flex: 0 0 35%;
+        padding: 20px;
+    }
+
+    .column-33 {
+        flex: 0 0 30%;
+        padding: 20px;
+    }
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+            
+            .large-font {
+                font-size: 30px;
+            }
+
+            .xlarge-font {
+                font-size: 48px;
+            }
+
+        .button{
+        display: inline-block;
+        padding: 5px 20px;
+        border-radius: 6px;
+        color: rgb(252, 247, 237);
+        font-weight: 600;
+        background-color: black;
+        border: 3px solid black;
+        font-size: 1.7rem;
+        text-transform: uppercase;
+        letter-spacing: .1rem;
+        margin-bottom: 50px;
+        transition: .5s ease;
+        transition-property: padding;
+        margin-top: 20px;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+    }
+    .button:hover{
+        padding: 5px 18px;
+        color: black;
+        background-color: #f29821;
+        border: 2px solid   #f29821;
+        ;
+    }
+
+            img {
+                display: block;
+                height: auto;
+                width: 100%;
+            }
+
+            .divider{
+                display: none;
+            }
+
+    @media screen and (max-width: 480px) {
+        .large-font {
+                font-size: 25px;
+            }
+            .xlarge-font {
+                font-size: 38px;
+            }
+        .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    #ccontainer1, 
+            #ccontainer2,  
+            #ccontainer3,
+            #ccontainer4 {
+                width: 0; /* Your previous container width */
+                margin: 0 auto;
+              
+                padding:0;
+                padding-bottom: 0;
+                padding-top: 0;
+                margin-bottom: 0;
+                margin-top: 0;
+                
+            }
+    .column-66,
+    .column-33 {
+        flex: 0 0 100%;
+        padding: 20px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .button {
+        font-size: 1.4rem;
+        padding: 5px 15px;
+        margin-bottom: 30px;
+    }
+
+    #divider {
+    width: 120%;
+    height: 2.5px;
+    background-color: goldenrod;
+    margin-top: 100px;
+    margin-bottom: -100px;
+    
+}
+
+    img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+    video {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+    #ccontainer1,
+    #ccontainer2,
+    #ccontainer3,
+    #ccontainer4 {
+        background-color: none;
+        background-color: #f2f2f2;
+    }
+   
+    #ccontainer1 {
+        margin-top: 180px;
+    }
+ }
+
+
+
+        </style>
+</head>
+<body>
+    <header>
+        <section id="header">
+            <div class="header container">
+                <div class="nav-bar">
+                    <div class="brand">
+                        <div id="logo"><img src="../images/logo.png" alt="Logo"></div>
+                    </div>
+                    <div class="nav-list">
+                        <div class="hamburger"><div class="bar"></div></div>
+                        <ul>
+                            <li><a href="../html/index.html">Home</a></li>
+                            <li><a href="../html/about.html">About</a></li>
+                            <li><a href="../html/portfolio.html">Portfolio</a></li>
+                            <li><a href="../html/contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>   
+    </header>
+
+    <main>
+        <section id="service">
+            <div class="service container">
+               
+
+                <!-- The App Section -->
+                <div class="container" id ="ccontainer1" >
+                    <div class="row">
+                        <div class="column-66">
+                            <h1 class="xlarge-font"><b>01</b></h1>
+                            <h1 class="large-font" style="color:goldenrod;"><b>A Nature Video</b></h1>
+                            <p id="content-body-text">
+                                <br>
+                                <strong>Date:</strong>
+                                March 24, 2023
+                                <br>
+                                <br>
+                                <strong>Involvement:</strong>
+                                <br>
+                            
+                                - This nature video project demonstrates my initiative in using available resources and my willingness to learn new software.
+                                <br>
+                                - Created a nature video during a challenging weather condition.
+                                <br>
+                                - Utilized images that I personally photographed and combined them with available video clips to showcase the snowy environment.
+                                <br>
+                                - Edited the video using Adobe Premiere Pro, my first attempt at using professional video editing software.
+                                <br>
+                                - Experimented with various transitions, effects, and audio enhancements to improve the overall visual and auditory experience.
+     
+                          
+                        </div>
+                        <div class="column-33">
+                            <video controls width="640" height="360">
+                                <source src="../videos/nature.mp4" type="video/mp4" class="flower" alt="App" width="50" height="51">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+             
+                
+                <!-- The App Section -->
+                <div class="container" id ="ccontainer2" >
+                    <div class="row">
+                        <div class="column-66">
+                            <h1 class="xlarge-font"><b>02</b></h1>
+                            <h1 class="large-font" style="color:goldenrod;"><b>"How To" Tutorial</b></h1>
+                            <p id="content-body-text">
+                                <br>
+                                <strong>Date:</strong>
+                                April 13, 2023
+                                <br>
+                                <br>
+                                <strong>Involvement:</strong>
+                                <br>
+                                -This project showcases my skills in scripting, content creation, videography and editing.
+                               <br>
+                               
+                               - Produced a comprehensive "How-To" video demonstrating how to safely cross the road.
+                               <br>
+                               - Scripted the video content to provide clear and engaging step-by-step instructions.
+                               <br>
+                               - Utilized professional videography techniques to capture close-ups of brewing processes and ingredients.
+                               <br>
+                               - Edited the video using Adobe Premiere Pro, ensuring seamless transitions and visual appeal.
+                               <br>
+                        </div>
+                        <div class="column-33">
+                            <video controls width="640" height="360">
+                                <source src="../videos/mary.mp4" type="video/mp4" class="flower" alt="App" width="50" height="51">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+       
+                
+                <!-- The App Section -->
+                <div class="container" id ="ccontainer3" >
+                    <div class="row">
+                        <div class="column-66">
+                            <h1 class="xlarge-font"><b>03</b></h1>
+                            <h1 class="large-font" style="color:goldenrod;"><b>Motion Transitions</b></h1>
+                            <p id="content-body-text">
+                                <br>
+                                <strong>Date:</strong>
+                                June 1, 2023
+                                <br>
+                                <br>
+                                <strong>Involvement:</strong>
+                                <br>
+                            
+                                - Conceptualized the overall theme and narrative of the transitioning animation</li>
+                                <br>
+                                - Carefully selected and photographed a variety of high-quality images that fit the theme</li>
+                                <br>
+                                - Designed and executed the animation transitions to smoothly move between images</li>
+                                <br>
+    
+                
+                
+                                - Sourced and added background music that enhances the mood and pacing of the animation</li>
+                                <br>
+                                - Polished the animation by adjusting timing, transitions, and visual effects</li>
+                                <br>
+
+                        </div>
+                        <div class="column-33">
+                            <video controls width="640" height="360">
+                                <source src="../videos/a01.mp4" type="video/mp4" class="flower" alt="App" width="50" height="51">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+        
+                                <!-- The App Section -->
+                <div class="container" id="ccontainer4">
+                    <div class="row">
+                        <div class="column-66">
+                            <h1 class="xlarge-font"><b>04</b></h1>
+                            <h1 class="large-font" style="color:goldenrod;"><b>Motion Graphics</b></h1>
+                            <p id="content-body-text">
+                                <br>
+                                <strong>Date:</strong>
+                                  July 20, 2023
+                                <br>
+                                <br>
+                                <strong>Involvement:</strong>
+                                <br>
+                                
+                                    - Conducted thorough research on the life cycle of butterflies.
+                                    <br>
+                                    - Created graphical illustrations and animations depicting each stage of the life cycle.
+                                    <br>       
+                                    - Sourced and selected suitable background music and sound effects.
+                                    <br>    
+                                    - Edited the music and sound effects to synchronize with the visual elements.
+                                    <br>      
+                                    - Performed the final video editing, combining all elements into a cohesive motion graphics video.
+                             
+                                <br>
+                            </p>
+                        </div>
+                        <div class="column-33">
+                            <video controls width="640" height="360">
+                                <source src="../videos/a02.mp4" type="video/mp4" class="flower" alt="App" width="50" height="51">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+</section>
+    </main>
+    <footer>
+        <ul class="social-links">
+          <li><a href="https://www.facebook.com" class="fab fa-facebook"></a></li>
+          <li><a href="https://www.linkedin.com/in/mary-fabeyo-35049b213" class="fab fa-linkedin"></a></li>
+          <li><a href="https://www.instagram.com" class="fab fa-instagram"></a></li>
+      </ul>
+    <br>
+      <div>
+        <p>Copyright &copy; 2023 Mary Fabeyo</p>
+      </div>
+    </footer>
+    <script src="../js/script.js"></script> 
+</html>
